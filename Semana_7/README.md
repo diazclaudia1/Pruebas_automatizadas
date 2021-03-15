@@ -70,3 +70,6 @@ Por cada funcionalidad se harán pruebas con datos a priori guardados en un Arra
 
 * Para la Funcionalidad de Login, no se encontraron errores fuera de los esperado ya que Ghost hace las validaciones de valores nulos, tamaño y tipos de datos
 * Para la funcionalidad de Settings, tampoco se encontraron errores porque de igual manera Ghost valida valores, nulos, tamaño y tipos de datos
+* Para la funcionalidad de tags, no se encontraron errores porque de igual manera Ghost valida que existan valores nulos, el tamaño de la descripcion y que se tenga un formato hexadecimal.
+* Para la funcionalidad de profile, no se encontraron errores porque Ghost valida el formato del email, nulos, tamaño y los tipos de datos.
+
