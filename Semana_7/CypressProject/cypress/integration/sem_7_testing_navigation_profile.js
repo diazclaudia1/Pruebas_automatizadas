@@ -249,7 +249,7 @@ function validarCorreoFallido(i,tipo) {
   .wait(1000);
    }
    else if (tipo == "seudo") {
-    cy.get('input[id="user-website"]')  
+   cy.get('input[id="user-email"]')  
   .first()
   .click({force:true})
   .clear()
@@ -258,7 +258,7 @@ function validarCorreoFallido(i,tipo) {
   }
   
      else if (tipo == "aleatorio") {
-    cy.get('input[id="user-website"]')  
+   cy.get('input[id="user-email"]')  
   .first()
   .click({force:true})
   .clear()
