@@ -10,11 +10,11 @@ CypressProject -> Desde acá
 <br>    * node_modules
 <br>    * package-lock.json
 
-![Directorio]()
+![Directorio](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/thumbnail.png)
 
 2. Al abrir Cypress se debe hacer clic en el archivo sem_7_testing_login.spec.js, sem_7_testing_settings.js, sem_7_testing_profile.js, sem_7_testing_tags.js que se encuentran fuera de la carpeta examples:
 
-![Ejecutar]()
+![Ejecutar](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/ejecutar.png)
 
 
 # Funcionalidades bajo pruebas
@@ -38,18 +38,18 @@ CypressProject -> Desde acá
 | F002 |Funcional | Pseudo aleatorio| 16 |
 | F002 |Funcional | Aleatorio | 16 |
 | F003 |Funcional | Pseudo aleatorio |
-| F003 |Funcional | A priori |
-| F003 |Funcional | Aleatorio |
-| F004 |Funcional | Pseudo aleatorio |
-| F004 |Funcional | A priori |
-| F004 |Funcional | Aleatorio |
+| F003 |Funcional | A priori | 
+| F003 |Funcional | Aleatorio | 
+| F004 |Funcional | Pseudo aleatorio | 
+| F004 |Funcional | A priori | 
+| F004 |Funcional | Aleatorio | 
 
 Por cada funcionalidad se harán pruebas con datos a priori guardados en un Array en el código, también se harán pruebas pseudo aleatorias usando el faker con los tipos de datos permitidos por los campos, y se harán pruebas usando el faker con tipos de datos aleatorios.
 
 # Evidencias de las pruebas ejecutadas
 
-* ![Login]()
-* ![Settings]()
+* ![Login](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/login.png)
+* ![Settings](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/settings.png)
 * ![Profile]()
 * ![Tags]()
 
