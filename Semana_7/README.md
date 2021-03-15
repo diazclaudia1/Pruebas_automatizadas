@@ -30,19 +30,19 @@ CypressProject -> Desde acá
 # Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Requerimiento |Tipo | Total Pruebas|
-| ---- | ----- | ----- | —— | 
+| ---- | ----- | ----- | ----- | 
 | F001 |Funcional | A priori| 5 |
 | F001 |Funcional | Pseudo aleatorio| 16 |
 | F001 |Funcional | Aleatorio | 16|
 | F002 |Funcional | A priori| 5 |
 | F002 |Funcional | Pseudo aleatorio| 16 |
 | F002 |Funcional | Aleatorio | 16 |
-| F003 |Funcional | Pseudo aleatorio |
-| F003 |Funcional | A priori | 
-| F003 |Funcional | Aleatorio | 
-| F004 |Funcional | Pseudo aleatorio | 
-| F004 |Funcional | A priori | 
-| F004 |Funcional | Aleatorio | 
+| F003 |Funcional | Pseudo aleatorio |16 |
+| F003 |Funcional | A priori | 5 |
+| F003 |Funcional | Aleatorio | 16 |
+| F004 |Funcional | Pseudo aleatorio | 16 |
+| F004 |Funcional | A priori | 5 |
+| F004 |Funcional | Aleatorio | 16 |
 
 Por cada funcionalidad se harán pruebas con datos a priori guardados en un Array en el código, también se harán pruebas pseudo aleatorias usando el faker con los tipos de datos permitidos por los campos, y se harán pruebas usando el faker con tipos de datos aleatorios.
 
@@ -50,7 +50,7 @@ Por cada funcionalidad se harán pruebas con datos a priori guardados en un Arra
 
 * ![Login](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/login.png)
 * ![Settings](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/settings.png)
-* ![Profile]()
+* ![Profile](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/Semana%207%20navegation%202.PNG)
 * ![Tags]()
 
 
