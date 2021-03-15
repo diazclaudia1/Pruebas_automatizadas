@@ -1,32 +1,36 @@
 const faker = require('faker');
 
-describe("loginAleatorio", function () {
-  it("Visit ghost and loginAleatorio", function () {
-   cy.visit("http://localhost:2368/ghost/#/signin");  
-    for(let i = 0 ; i< 16  ;i++ ){
-      loginAleatorio(types[Math.floor(Math.random() * 5) + 1],types[Math.floor(Math.random() * 5) + 1]) ;
-    }
-  });
+describe("loginAleatorio", function () {  
+  for(let i = 0 ; i< 16  ;i++ ){    
+    it(i+" Visit ghost and loginAleatorio", function () {
+      cy.wait(1000);
+      cy.visit("http://localhost:2368/ghost/#/signin");        
+      loginAleatorio(types[getRandomInt(1,5)],types[getRandomInt(1,5)]) ;
+      
+    });
+  }
 });
 
 describe("loginPseudoAleatorio", function () {
-  it("Visit ghost and loginPseudoAleatorio", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
-    for(let i = 0 ; i< 16  ;i++ ){
-      loginPseudoAleatorio() 
-    }
-  });
+  for(let i = 0 ; i< 16  ;i++ ){
+    it(i+" Visit ghost and loginPseudoAleatorio", function () {
+      cy.wait(1000);
+      cy.visit("http://localhost:2368/ghost/#/signin");    
+      loginPseudoAleatorio()       
+    });
+  }
 });
 
 describe("loginApriori", function () {
-  it("Visit ghost and loginApriori", function () {
-    cy.visit("http://localhost:2368/ghost/#/signin");    
-    for(let i = 0 ; i< emailLogin.length  ;i++ ){
+  for(let i = 0 ; i< emailLogin.length ;i++ ){
+    it(i+" Visit ghost and loginApriori", function () {
+      cy.wait(1000);         
+      cy.visit("http://localhost:2368/ghost/#/signin");
       loginApriori(emailLogin[i],passwordLogin[i]) 
-    }
-  });
+      
+    });
+  }
 });
-
 
 let emailLogin = [  
   "kikegamba@gmail.com",
@@ -49,8 +53,30 @@ let types = [
   faker.random.number(0,10),
   faker.name.firstName(), 
   faker.internet.password(8,10),
-  ""
+  faker.phone.phoneNumber(),
+  faker.company.companyName(),
+  faker.lorem.paragraph(),
+  faker.name.jobTitle(),
+  faker.internet.email()
 ];
+
+function login() {        
+
+  cy.get('input[name="identification"]')
+  .first()
+  .clear()
+  .click({force: true })
+  .type("cx.diaz@uniandes.edu.co")
+  .wait(1000);
+
+  cy.get('input[name="password"]')
+  .first()
+  .clear()
+  .click({ force: true })
+  .type("3167782178+caya")
+  .wait(1000)
+  .type("{enter}");
+}
 
 function loginApriori(user, password) {        
 
@@ -71,7 +97,6 @@ function loginApriori(user, password) {
 }
 
 function loginPseudoAleatorio() {        
-
   cy.get('input[name="identification"]')
   .first()
   .clear()
@@ -106,5 +131,8 @@ function loginAleatorio(user, password){
 }
 
 
-
-
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
