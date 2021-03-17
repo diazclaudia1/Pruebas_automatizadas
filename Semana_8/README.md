@@ -1,18 +1,18 @@
 # Entrega final Pruebas automatizadas de software 
 
-* (Plantilla de estrategia de pruebas)[]
-* (Inventario de pruebas exploratorias)[]
-* (Video de la estrategia de pruebas)[]
-* (Presentación de la estrategia de pruebas)[]
-* (Issues Ghost)[]
+* [Plantilla de estrategia de pruebas]()
+* [Inventario de pruebas exploratorias]()
+* [Video de la estrategia de pruebas]()
+* [Presentación de la estrategia de pruebas]()
+* [Issues Ghost]()
 
 
 
 # Instrucciones de ejecución de pruebas
 
-# Pruebas Aleatorias
+## 1. Pruebas Aleatorias
 
-## Guía de despliegue Cypress
+#### Guía de despliegue Cypress
 
 1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
 
@@ -28,7 +28,7 @@ CypressProject -> Desde acá
 
 [Ejecutar](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EXaM-GJDBTxFnG_Yc9-vkzsBUPryUShLP54gTtH2t9BqrQ?e=XMH8KE)
 
-# Funcionalidades bajo pruebas
+#### Funcionalidades bajo pruebas
 
 | Id   | Nombre | Resumen| 
 | ---- | ----- | ----- |
@@ -39,7 +39,7 @@ CypressProject -> Desde acá
 | F005	| Navegar site	| Permite navegar por las secciones del site, como Home, Tag, Author y Help.|
 
 
-# Escenarios por funcionalidad bajo pruebas
+#### Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Escenario| Requerimiento |Tipo | Resumen| 
 | ---- | ----- | ----- | -----| -----| 
@@ -55,28 +55,28 @@ CypressProject -> Desde acá
 | F005 | Navegar por el site random | Funcional | Negativo| Se debe permitir navegar por el site haciendo eventos aleatorios y esperar encontrar un error | 
 
 
-# Pros y contras de la herramienta Cypress 
+### Pros y contras de la herramienta Cypress 
 
-## Pros:
+#### Pros:
 
 * Permite hacer pruebas más rápidas que las manuales
 * Permite encontrar casos raros en las pruebas aleatorias
 * Fácil de implementar, es solo descargar y agregar las funcionalidades
 
-## Contras:
+#### Contras:
 
 * Pruebas muy frágiles, si se cambia el id de un campo ya no funciona la prueba
 * Al encontrar un solo error se termina todo el proceso a probar
 * Hay que seleccionar específicamente el elemento y no siempre lo identifica fácilmente 
 
 
-# Pruebas E2E
+## 2. Pruebas E2E
 
-## Guía de despliegue Pruebas kraken
+### Guía de despliegue Pruebas kraken
 
 [Despliegue de kraken](https://misovirtual.virtual.uniandes.edu.co/codelabs/kraken-testing-web/index.html#0)
 
-# Funcionalidades bajo pruebas kraken
+#### Funcionalidades bajo pruebas kraken
 
 | Id   | Nombre | Resumen| 
 | ---- | ----- | ----- |
@@ -87,7 +87,7 @@ CypressProject -> Desde acá
 | F005	| Crear una página	| Permite crear una nueva página.|
 
 
-# Escenarios por funcionalidad bajo pruebas
+#### Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Escenario| Requerimiento |Tipo | Resumen| 
 | ---- | ----- | ----- | -----| -----| 
@@ -103,9 +103,9 @@ CypressProject -> Desde acá
 | F005 | Editar una página | Funcional | Positivo| Se debe permitir editar una página del blog | 
 
 
-# Pros y Contras de Kraken
+### Pros y Contras de Kraken
 
-## Pros
+#### Pros
 
 * Es mas cercano a simular un comportamiento real de parte de un usuario y es más coherente en los pasos a seguir.
 
@@ -114,14 +114,14 @@ CypressProject -> Desde acá
 * Permite crear escenarios de pruebas de forma mas sencilla e intuitiva ya que usa lenguaje natural BDD.
 
 
-## Contras
+#### Contras
 * Hay que separar las feature por archivo, lo que implica que si hay muchas pruebas van a haber muchos archivos.
 * Para las mismas pruebas algunas veces pasan y otras no, por lo que no es confiable el resultado de las pruebas.
 
 
-# Pruebas VRT
+## 3. Pruebas VRT
 
-## Funcionalidades bajo pruebas VRT
+### Funcionalidades bajo pruebas VRT
 
 | Id   | Nombre | Resumen| 
 | ---- | ----- | ----- |
@@ -132,7 +132,7 @@ CypressProject -> Desde acá
 | F005	| Navegar menú del perfil	| Permite navegar por las opciones del perfil |
 
 
-# Escenarios por funcionalidad bajo pruebas
+### Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Escenario| Requerimiento |Tipo |
 | ---- | ----- | ----- | -----|
@@ -160,7 +160,7 @@ CypressProject -> Desde acá
 | F005 | Cambiar nombre por entrada fallida | Funcional | Negativo|
 
 
-# Guía de despliegue Cypress
+## Guía de despliegue Cypress
 
 1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
 
@@ -176,13 +176,13 @@ CypressProject -> Desde acá
 
 [Ejecutar](https://uniandes-my.sharepoint.com/:i:/g/personal/cx_diaz_uniandes_edu_co/EXaM-GJDBTxFnG_Yc9-vkzsBUPryUShLP54gTtH2t9BqrQ?e=XMH8KE)
 
-# Informe de pruebas Cypress
+### Informe de pruebas Cypress
 
 * Ghost 3: ![Último ghost](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/last.png)
 * Ultimo Ghost: ![Ghost versión 3](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/old.png)
 
 
-# Guía de despliegue Backstop
+### Guía de despliegue Backstop
 
 * Instalar backstop según los pasos [Guia](https://misovirtual.virtual.uniandes.edu.co/codelabs/visual-regression-testing-backstop/index.html#0)
 * Desde la carpeta raíz ejecutar `backstop init`
@@ -191,43 +191,43 @@ CypressProject -> Desde acá
 * Agregar las url de las imágenes a comparar en el archivo backstop.json [screenshots comparar](https://github.com/diazclaudia1/test_sem_5/tree/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing_ghost3.spec.js)
 * Desde la carpeta raíz ejecutar `backstop test`
 
-# Informe de regresión visual BackStop
+#### Informe de regresión visual BackStop
 
 * [Informe html](https://github.com/diazclaudia1/test_sem_5/blob/master/Test_sem_6/Backstop/backstop_data/html_report/index.html)
 * ![Informe](https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/img/_C__Users_Claudia_Desktop_Backstop_backstop_data_html_report_index.html.png)
 * Issues de diferencias encontradas: [Issues](https://github.com/diazclaudia1/test_sem_5/issues)
 
-# Pros de las herramientas
+#### Pros de las herramientas
 
 
-## Cypress 
+### Cypress 
 
-### Contras
+#### Contras
 
 * Es muy manual la forma como se debe ir y ver los nombres y clases de los elementos para que sean accedidos
 * Doble trabajo ya que hay probar dos versiones de la misma aplicación y cada una tiene diferentes elementos
 
-### Pros
+#### Pros
 
 * Es interesante el tomar los screenshots para analizar las pantallas y que sean usadas para una regresión visual
 
 
-## Backstop
+### Backstop
 
-### Contras
+#### Contras
 
 * Es muy milimétrico y si las pantallas son iguales pero hay una diferencia en la posición de un elemento ya lo toma como falla 
 
-### Pros
+#### Pros
 
 * Es muy rápido hacer las comparaciones para dos versiones de la misma herramienta y así enfocarse en las funcionalidades que cambiaron
 
 
 
 
-# Pruebas de validación de datos
+## 4. Pruebas de validación de datos
 
-## Guía de despliegue Cypress
+### Guía de despliegue Cypress
 
 1. Para desplegar se debe ejecutar el desde la carpeta raíz del proyecto el comando `./node_modules/.bin/cypress open`, por ejemplo:
 
@@ -244,7 +244,7 @@ CypressProject -> Desde acá
 ![Ejecutar](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/ejecutar.png)
 
 
-# Funcionalidades bajo pruebas
+### Funcionalidades bajo pruebas
 
 | Id   | Nombre | Resumen| 
 | ---- | ----- | ----- |
@@ -254,7 +254,7 @@ CypressProject -> Desde acá
 | F004  | Tags |    Permite crear los tags que serán usados por las páginas.|
 
 
-# Escenarios por funcionalidad bajo pruebas
+### Escenarios por funcionalidad bajo pruebas
 
 | Id Funcionalidad | Requerimiento |Tipo | Total Pruebas|
 | ---- | ----- | ----- | ----- | 
@@ -273,7 +273,7 @@ CypressProject -> Desde acá
 
 Por cada funcionalidad se harán pruebas con datos a priori guardados en un Array en el código, también se harán pruebas pseudo aleatorias usando el faker con los tipos de datos permitidos por los campos, y se harán pruebas usando el faker con tipos de datos aleatorios.
 
-# Evidencias de las pruebas ejecutadas
+### Evidencias de las pruebas ejecutadas
 
 * ![Login](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/login.png)
 * ![Settings](https://raw.githubusercontent.com/diazclaudia1/Pruebas_automatizadas/master/Semana_7/CypressProject/cypress/screenshots/settings.png)
@@ -281,19 +281,19 @@ Por cada funcionalidad se harán pruebas con datos a priori guardados en un Arra
 * ![Tags]()
 
 
-# Pros y Contras de Faker
+### Pros y Contras de Faker
 
-## Pros
+#### Pros
 
 * Es muy ágil la manera como genera datos y tipos de datos aleatorios sin necesidad de crear pruebas una a una
 * Permite hacer gran volumen de pruebas y encontrar validaciones de campos por tipos de datos
 
-## Contras
+#### Contras
 
 * Por la naturaleza de Ghost hay pruebas en donde se no se encuentran fallas y en otras no, ya que cambian los id de los componentes
 * Las validaciones de Ghost son bastante acertadas, valida tamaños de los campos, valida nulos, y tipos de datos
 
-# Conclusiones de las pruebas
+#### Conclusiones de las pruebas
 
 * Para la Funcionalidad de Login, no se encontraron errores fuera de los esperado ya que Ghost hace las validaciones de valores nulos, tamaño y tipos de datos
 * Para la funcionalidad de Settings, tampoco se encontraron errores porque de igual manera Ghost valida valores, nulos, tamaño y tipos de datos
