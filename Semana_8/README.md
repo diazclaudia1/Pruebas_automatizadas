@@ -1,10 +1,10 @@
 # Entrega final Pruebas automatizadas de software 
 
-* [Plantilla de estrategia de pruebas]()
+* [Estrategia de pruebas]()
 * [Inventario de pruebas exploratorias]()
 * [Video de la estrategia de pruebas]()
 * [Presentación de la estrategia de pruebas]()
-* [Issues Ghost]()
+* [Issues Ghost](https://github.com/diazclaudia1/Pruebas_automatizadas/issues)
 
 
 
