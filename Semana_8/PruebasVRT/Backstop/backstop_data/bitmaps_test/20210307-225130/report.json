@@ -1,0 +1,240 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E1_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E1_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E1_0__0_default.png",
+        "label": "E1",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E1_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E2_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E2_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E2_0__0_default.png",
+        "label": "E2",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/2.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E2_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E3_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E3_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E3_0__0_default.png",
+        "label": "E3",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/3.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E3_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E4_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E4_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E4_0__0_default.png",
+        "label": "E4",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/4.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E4_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E5_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E5_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E5_0__0_default.png",
+        "label": "E5",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/5.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E5_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E6_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E6_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E6_0__0_default.png",
+        "label": "E6",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing_ghost3.spec.js/6.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E6_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E7_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E7_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E7_0__0_default.png",
+        "label": "E7",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing_ghost3.spec.js/7.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E7_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E8_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E8_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E8_0__0_default.png",
+        "label": "E8",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing_ghost3.spec.js/8.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E8_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E9_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E9_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E9_0__0_default.png",
+        "label": "E9",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/9.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E9_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E10_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E10_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E10_0__0_default.png",
+        "label": "E10",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/10.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E10_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E11_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E11_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E11_0__0_default.png",
+        "label": "E11",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/11.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E11_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E12_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E12_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E12_0__0_default.png",
+        "label": "E12",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/12.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E12_0__0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ghost_E13_0__0_default.png",
+        "test": "..\\bitmaps_test\\20210307-225130\\Ghost_E13_0__0_default.png",
+        "selector": "",
+        "fileName": "Ghost_E13_0__0_default.png",
+        "label": "E13",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "",
+        "referenceUrl": "https://raw.githubusercontent.com/diazclaudia1/test_sem_5/master/Test_sem_6/CypressProject/cypress/screenshots/monkey_testing.spec.js/monkey_testing.spec.js/13.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "engineErrorMsg": "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+        "error": "Reference file not found C:\\Users\\Claudia\\Desktop\\Backstop\\backstop_data\\bitmaps_reference\\Ghost_E13_0__0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "Ghost"
+}
