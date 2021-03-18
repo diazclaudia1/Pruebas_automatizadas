@@ -1,7 +1,7 @@
 # Entrega final Pruebas automatizadas de software 
 
 * [Estrategia de pruebas]()
-* [Inventario de pruebas exploratorias]()
+* [Inventario de pruebas exploratorias](https://github.com/diazclaudia1/Pruebas_automatizadas/blob/master/Semana_8/inventario-pruebas-exploratorias.xlsx)
 * [Video de la estrategia de pruebas]()
 * [Presentación de la estrategia de pruebas]()
 * [Issues Ghost](https://github.com/diazclaudia1/Pruebas_automatizadas/issues)
