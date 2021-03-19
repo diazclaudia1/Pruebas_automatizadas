@@ -1,9 +1,9 @@
 # Entrega final Pruebas automatizadas de software 
 
-* [Estrategia de pruebas]()
+* [Estrategia de pruebas](https://github.com/diazclaudia1/Pruebas_automatizadas/blob/master/Semana_8/estrategia-pruebas.pdf)
 * [Inventario de pruebas exploratorias](https://github.com/diazclaudia1/Pruebas_automatizadas/blob/master/Semana_8/inventario-pruebas-exploratorias.xlsx)
-* [Video de la estrategia de pruebas]()
-* [Presentación de la estrategia de pruebas]()
+* [Video de la estrategia de pruebas](https://github.com/diazclaudia1/Pruebas_automatizadas/blob/master/Semana_8/video_presentacion_final.mp4)
+* [Presentación de la estrategia de pruebas](https://github.com/diazclaudia1/Pruebas_automatizadas/blob/master/Semana_8/Estrategias%20de%20pruebas.pdf)
 * [Issues Ghost](https://github.com/diazclaudia1/Pruebas_automatizadas/issues)
 
 
